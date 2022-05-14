@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: transparent;
+    overflow: hidden;
+    margin: 0.25vw;
+    font-family: 'GILLSANS', cursive;
+}
+
+#main {
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7vw;
+    margin-right: 0.4vw;
+    height: 2vw;
+    direction: rtl;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .IconContainer {
+    position: absolute;
+    bottom: 0vh;
+    left: 4.3vh;
+  }
+  
+  .BaseCircle {
+    position: relative;
+    width: 2.9vh !important;
+    height: 2.9vh !important;
+    float: left;
+    margin: 0.3vh;
+    border-radius: 50%;
+    background: rgb(49, 49, 49);
+  }
+  
+  .fa-heart,
+  .fa-shield-alt,
+  .fa-hamburger,
+  .fa-skull {
+    color: white;
+    position: absolute;
+    font-size: 1.3vh;
+    left: 0.82vh;
+    bottom: 0.82vh;
+  }
+  
+  .fa-brain {
+    color: white;
+    position: absolute;
+    font-size: 1.3vh;
+    left: 0.75vh;
+    bottom: 0.82vh;
+  }
+  
+  .fa-lungs {
+    color: white;
+    position: absolute;
+    font-size: 1.3vh;
+    left: 0.7vh;
+    bottom: 0.92vh;
+  }
+  
+  .fa-tint {
+    color: white;
+    position: absolute;
+    font-size: 1.3vh;
+    left: 1.05vh;
+    bottom: 0.87vh;
+  }
+  
+  .flash {
+    -webkit-animation: flash 1s;
+  }
+  
+  @keyframes flash {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

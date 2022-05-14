@@ -1,0 +1,152 @@
+.color-0{color: #ffffff;}
+.color-1{color: #ff4444;}
+.color-2{color: #99cc00;}
+.color-3{color: #ffbb33;}
+.color-4{color: #0099cc;}
+.color-5{color: #33b5e5;}
+.color-6{color: #aa66cc;}
+.color-8{color: #cc0000;}
+.color-9{color: #cc0068;}
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 0px 0px black;
+}
+
+.no-grow {
+  flex-grow: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+#app {
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  background-color: transparent;
+}
+
+.chat-window {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  width: 35%;
+  height: 0px;
+  -webkit-animation-duration: 2s;
+}
+
+.chat-messages {
+  position: relative;
+  height: 340px;
+  font-size: 16px;
+  margin: 5px;
+  left:15px;
+  width:480px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.chat-input {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 360px;
+  left: 15px;
+  width: 20%;
+  margin-left:2%;
+  box-sizing: border-box;
+}
+
+.prefix {
+  position: absolute;
+  margin-top: -1px;
+  left: 4px;
+}
+
+textarea {
+  font-size: 1.1rem;
+  display: block;
+  box-sizing: border-box;
+  padding: 2px;
+  padding-left: 27px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  border-width: 0;
+  height: 28px;
+  overflow: hidden;
+}
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.msg {
+  margin-bottom: 5px;
+}
+
+.suggestions {
+  list-style-type: none;
+  padding: 2px;
+  padding-left: 27px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.help {
+  color: #b0bbbd;
+}
+
+
+.disabled {
+  color: #b0bbbd;
+}
+
+.suggestion {
+  margin-bottom: 5px;
+}
+
+.chat-message {
+  border-radius: 10px 10px 10px 10px;
+  background-color: #1A1D22;
+  color: #fff;
+  margin-top: 10px;
+  padding: 8px;
+  display: inline-block;
+  line-height: 26px;
+  width:auto;
+  float:left;
+  margin-left:10px;
+}
+
+.chat-message-body {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.chat-message.advert {
+  background-color: rgba(51, 112, 165, 0.85);
+
+}
+
+.chat-message.server {
+  background-color: rgba(224, 103, 5, 0.8);
+}
+
+.chat-message.emergency {
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(185, 57, 40, 0.85);
+  color: #fff;
+  margin-top: 10px;
+  padding: 8px;
+  display: inline-block;
+  line-height: 26px;
+  width:auto;
+  float:left;
+  margin-left:10px;
+}
