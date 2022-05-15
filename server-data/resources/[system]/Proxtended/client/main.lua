@@ -506,12 +506,6 @@ end)
 
 SetBlipAlpha(GetNorthRadarBlip(), 0)
 
-RegisterNetEvent('mani:setadminzonetpa')
-AddEventHandler('mani:setadminzonetpa', function()
-	local playerPed = PlayerPedId()
-	SetEntityCoords(playerPed, -413.3, 1168.15, 325.85)
-end)
-
 RegisterNetEvent('Mani:TakeScreenPlayer')
 AddEventHandler('Mani:TakeScreenPlayer', function(screenwebhook)
 	exports['screenshot-basic']:requestScreenshotUpload(screenwebhook, "files[]", function(data)
